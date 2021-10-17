@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">To Do Note</string>
+    <string name="tugas">tugas</string>
+    <string name="simpan">Simpan</string>
+    <string name="to_do_list">To Do List</string>
+    <string name="new_task">New Task</string>
+    <string name="kegiatan">Kegiatan</string>
+</resources>
