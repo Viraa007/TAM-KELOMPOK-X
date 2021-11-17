@@ -20,7 +20,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:layout_marginBottom="16dp"
-            android:text="Memo | Notes"
+            android:text="Note"
             android:textColor="@android:color/black"
             android:textSize="20sp"
             android:textStyle="bold" />
