@@ -5,8 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:ignore="ContentDescription,
-    UselessParent,UseCompoundDrawables,HardcodedText">
+    tools:ignore="ContentDescription,UselessParent,UseCompoundDrawables,HardcodedText">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -20,7 +19,7 @@
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
             android:layout_marginEnd="16dp"
-            android:background="@drawable/ic_hapus" />
+            android:background="@drawable/ic_baseline_delete" />
 
         <LinearLayout
             android:id="@+id/titleRow"

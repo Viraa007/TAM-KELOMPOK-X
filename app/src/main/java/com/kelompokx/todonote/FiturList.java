@@ -19,7 +19,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class FiturList extends AppCompatActivity {
+public class FiturList extends AppCompatActivity implements DialogCloseListener{
     private RecyclerView tasksRecyclerView;
     private ToDoAdapter tugasAdapter;
     private FloatingActionButton fab;

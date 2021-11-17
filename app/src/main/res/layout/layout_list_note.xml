@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#66000000"
+    android:background="@color/white"
     android:orientation="vertical"
     android:padding="10dp">
 
@@ -17,7 +17,7 @@
             android:layout_height="40dp"
             android:text="Medium Text"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:textColor="#FFFFFF"
+            android:textColor="@color/black"
             android:textSize="20dp" />
 
         <TextView
@@ -28,7 +28,7 @@
             android:text="date"
             android:textSize="14dp"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:textColor="#FFFFFF" />
+            android:textColor="@color/black" />
 
     </LinearLayout>
 
@@ -45,7 +45,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Buka"
-            android:textColor="#FFFFFF" />
+            android:textColor="@color/black" />
 
         <ImageButton
             android:id="@+id/btnDelete"
@@ -53,7 +53,7 @@
             android:layout_height="match_parent"
             android:layout_weight="3"
             android:backgroundTint="#f50057"
-            android:src="@drawable/ic_baseline_delete_24" />
+            android:src="@drawable/ic_baseline_delete" />
 
     </LinearLayout>
 

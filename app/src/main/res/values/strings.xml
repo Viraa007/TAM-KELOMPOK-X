@@ -5,4 +5,7 @@
     <string name="to_do_list">To Do List</string>
     <string name="new_task">New Task</string>
     <string name="kegiatan">Kegiatan</string>
+    <string name="note">Note</string>
+    <string name="calendar">Calendar</string>
+    <string name="list">List</string>
 </resources>

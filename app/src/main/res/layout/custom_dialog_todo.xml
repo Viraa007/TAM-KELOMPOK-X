@@ -9,8 +9,7 @@
     android:orientation="vertical"
     android:padding="10dp"
     app:layout_constraintCircleRadius="8dp"
-    tools:ignore="UseCompoundDrawables,
-    ContentDescription,HardcodedText">
+    tools:ignore="UseCompoundDrawables,ContentDescription,HardcodedText">
 
     <LinearLayout
         android:id="@+id/titleLayout"

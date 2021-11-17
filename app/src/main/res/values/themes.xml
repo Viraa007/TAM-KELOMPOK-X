@@ -2,7 +2,7 @@
     <!-- Base application theme. -->
     <style name="Theme.ToDoNote" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">#84ffff</item>
+        <item name="colorPrimary">#AED7E7</item>
         <item name="colorPrimaryVariant">#00bcd4</item>
         <item name="colorOnPrimary">@color/black</item>
         <!-- Secondary brand color. -->
