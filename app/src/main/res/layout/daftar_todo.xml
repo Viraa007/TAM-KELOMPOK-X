@@ -19,7 +19,7 @@
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
             android:layout_marginEnd="16dp"
-            android:background="@drawable/ic_baseline_delete" />
+            android:background="@drawable/ic_hapus" />
 
         <LinearLayout
             android:id="@+id/titleRow"
