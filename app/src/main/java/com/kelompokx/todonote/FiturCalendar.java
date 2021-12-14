@@ -107,7 +107,7 @@ public class FiturCalendar extends AppCompatActivity {
                 e.printStackTrace();
             }
         } else
-            toastMsg("Opps.. terjadi kesalahan saat menyimpan!");
+            toastMsg("Terjadi kesalahan saat menyimpan!");
     }
 
     private void populateListView() {
@@ -238,11 +238,11 @@ public class FiturCalendar extends AppCompatActivity {
                         e.printStackTrace();
                     }
                 } else {
-                    toastMsg("Oops, Gak bisa kosong tugas nya.");
+                    toastMsg("Tugas harus diisi!");
                 }
             }
         });
-        dialogBuilder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+        dialogBuilder.setNegativeButton("Batal", new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int whichButton) {
                 dialog.cancel();
             }

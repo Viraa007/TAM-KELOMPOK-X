@@ -107,4 +107,6 @@ public class FiturNote extends AppCompatActivity {
             return convertView;
         }
     }
+
+
 }

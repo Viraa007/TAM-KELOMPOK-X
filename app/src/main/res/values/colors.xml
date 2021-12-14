@@ -9,6 +9,8 @@
     <color name="white">#FFFFFFFF</color>
 
     <color name="colorPrimary">#84ffff</color>
+    <color name="colorPrimary2">#E871FFBD</color>
     <color name="colorPrimaryDark">@color/teal_200</color>
+    <color name="colorDelete">#f50057</color>
     <color name="colorAccent">#000000</color>
 </resources>

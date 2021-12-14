@@ -14,14 +14,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ToDoNote">
-
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
         <activity
             android:name=".FiturCalendar"
-            android:exported="true" android:label="To Do Note">
+            android:exported="true"
+            android:label="To Do Note">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
+
         <receiver android:name=".Notifikasi" />
 
         <activity
@@ -34,7 +38,7 @@
             android:name=".EditNote"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name=".SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
